@@ -1,8 +1,10 @@
 import argparse
 
 
-def say_something(phrase): # ... I'm giving up on you. 
+def say_something(phrase): # ... I'm giving up on you.
     """Change this however you'd like!"""
+    for i in range(5):
+        print(i)
     print(phrase)
 
 
